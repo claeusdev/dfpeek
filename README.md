@@ -1,4 +1,6 @@
-# frame-explorer
+# [WIP]: dfpeek: Get a detailed summary into your data files
+
+Heavily inspired by [explore](https://github.com/buabaj/xplore)
 
 The easiest way to manage feature toggles in applications.
 
@@ -9,13 +11,13 @@ The easiest way to manage feature toggles in applications.
 ## Installation
 
 ```py
-pip install frame-explorer
+pip install dfpeek
 ```
 
 ## Usage
 
 ```py
-dfexplore --f csv /path/to/file...
+dfpeek --f file_type /path/to/file...
 ```
 
 ## Contributing and Support
