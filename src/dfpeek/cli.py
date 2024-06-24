@@ -1,5 +1,4 @@
 from argparse import Action, Namespace, ArgumentParser
-from typing import Sequence, Any
 
 
 class FileAction(Action):
@@ -20,6 +19,19 @@ def create_parser():
     parser = ArgumentParser(description="Explore data from files")
 
     parser.add_argument(
-        "-f", help="file type & path to file", nargs=2, action=FileAction, required=True
+        "-f",
+        help="file type & path to file",
+        nargs=2,
+        metavar=("file_type", "file_path"),
+        action=FileAction,
+        required=True,
     )
     return parser
+
+
+def main():
+    import pandas as pd
+
+    args = create_parser().parse_args()
+    df = pd.read_csv(args.path)
+    print(df)
