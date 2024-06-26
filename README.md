@@ -31,3 +31,9 @@ If you're interested in contributing or supporting. Just fork, open a PR.
 3. `cd dfexplore`
 4. Activate virtualenv `pipenv shell`
 5. Install dependencies
+
+### TODO
+- [ ] Suggest related fields
+- [ ] Retrieve correlated data
+- [ ] Suggest droppable columns
+- [ ] Prediction/Suggest model build.
