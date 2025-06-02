@@ -2,8 +2,6 @@
 
 Heavily inspired by [explore](https://github.com/buabaj/xplore)
 
-The easiest way to manage feature toggles in applications.
-
 ## About
 
 ## Features
